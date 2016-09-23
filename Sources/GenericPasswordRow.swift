@@ -9,7 +9,7 @@
 import Foundation
 import Eureka
 
-public class _GenericPasswordRow: Row<String, GenericPasswordCell> {
+public class _GenericPasswordRow: Row<GenericPasswordCell> {
 
     public var passwordValidator: PasswordValidator = DefaultPasswordValidator()
     public var placeholder: String? = "Password"
